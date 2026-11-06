@@ -1,4 +1,4 @@
-package app.template.patches.shared
+package app.mitrosoft.patches.shared
 
 import app.morphe.patcher.patch.ApkFileType
 import app.morphe.patcher.patch.AppTarget
@@ -6,6 +6,18 @@ import app.morphe.patcher.patch.Compatibility
 import app.morphe.patcher.patch.SupportedAbi
 
 object Constants {
+    val COMPATIBILITY_TRADINGVIEW = Compatibility(
+        name = "TradingView",
+        packageName = "com.tradingview.tradingviewapp",
+        apkFileType = ApkFileType.APKM,
+        appIconColor = 0x2962FF,
+        targets = listOf(
+            AppTarget(
+                version = "1.20.86.0.1002565"
+            )
+        )
+    )
+
     val COMPATIBILITY_EXAMPLE = Compatibility(
         name = "XYZ app", // App name as it appears in the Android launcher.
         packageName = "com.example.app",

@@ -1,10 +1,10 @@
-package app.template.patches.example
+package app.mitrosoft.patches.example
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
-import app.template.patches.shared.Constants.COMPATIBILITY_EXAMPLE
+import app.mitrosoft.patches.shared.Constants.COMPATIBILITY_EXAMPLE
 
-private const val EXTENSION_CLASS = "Lapp/template/extension/ExamplePatch;"
+private const val EXTENSION_CLASS = "Lapp/mitrosoft/extension/extension/ExamplePatch;"
 
 @Suppress("unused")
 val examplePatch = bytecodePatch(
