@@ -17,30 +17,41 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 ## Patches list
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0-dev.1](https://github.com/mirbyte/morphe-patches/releases/tag/v1.0.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+<details open>
+<summary>📦 XYZ app&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
 
-<!-- Do not modify this section by hand. The patch list is generated when release.yml creates a new release.
-     
-     If you wish for the patches list to be collapsed, then remove the word 'EXPANDED' from the comment tag above.
+**Package name:** `com.example.app`
 
-     If you wish to manually keep this list updated then remove the PATCHES_START and PATCHES_END 
-     comment blocks entirely. -->
+**🎯 Supported versions:**
 
-#### A list of your patches will automatically be shown here after your first patches release is created.
+| 2.0.0 | 1.0.2 |
+| :---: | :---: |
 
-&nbsp;
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Example Patch](#example-patch) | Example patch to start with. |  |
 
-## Dev usage
+</details>
 
-- **Make all changes on the `dev` branch.**
-- Local build: `./gradlew buildAndroid` → `patches/build/libs/patches-*.mpp`
-- Apply locally with [Morphe Desktop](https://github.com/MorpheApp/morphe-desktop)
-- Commit messages: `feat:`, `fix:`, or `chore:` (semantic commits)
-- `feat:` / `fix:` create pre-releases; `chore:` does not
-- Stable release: merge `dev` into `main` (merge commit, do not squash)
-- Use `release.yml` for releases; do not upload releases by hand
+<details open>
+<summary>📦 TradingView&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
 
-<!-- The patches end tag is intentionally placed here so the first release will clean up 
-     this readme of all developer instructions above. -->
+**Package name:** `com.tradingview.tradingviewapp`
+
+**🎯 Supported versions:**
+
+| 1.20.86.0.1002565 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Hide profile upsell banner](#hide-profile-upsell-banner) | Hides the subscription upsell banner below the profile on the Menu tab. |  |
+
+</details>
+
 <!-- PATCHES_END -->
 
 ### Building locally
