@@ -6,7 +6,7 @@ patches {
         description = "Patches for use with Morphe (TradingView and more)"
         source = "git@github.com:mirbyte/morphe-patches.git"
         author = "mirbyte"
-        contact = "https://github.com/mirbyte"
+        contact = "https://github.com/mirbyte/morphe-patches/issues"
         website = "https://github.com/mirbyte/morphe-patches"
         license = "GPLv3"
     }
