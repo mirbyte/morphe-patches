@@ -4,7 +4,7 @@ Patch bundle for use with [Morphe](https://github.com/MorpheApp).
 
 ## About
 
-Patches for apps I use.
+Still trying to figure this out. Patches are always tested on my own devices before releasing.
 
 ### How to use these patches
 
