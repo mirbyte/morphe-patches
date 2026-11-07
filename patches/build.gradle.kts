@@ -1,14 +1,13 @@
-group = "app.template"
+group = "app.mitrosoft"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
-        contact = "na"
-        website = "na"
+        name = "mitrosoft"
+        description = "Patches for use with Morphe (TradingView and more)"
+        source = "git@github.com:mirbyte/morphe-patches.git"
+        author = "mirbyte"
+        contact = "https://github.com/mirbyte/morphe-patches/issues"
+        website = "https://github.com/mirbyte/morphe-patches"
         license = "GPLv3"
     }
 }
