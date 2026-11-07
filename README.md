@@ -1,4 +1,4 @@
-# mitrosoft Morphe Patches
+# mitrosoft Morphe
 
 Patch bundle for use with [Morphe](https://github.com/MorpheApp).
 
@@ -47,4 +47,4 @@ See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation
 
 ## License
 
-mitrosoft patches is licensed under the [GNU General Public License v3.0](LICENSE)
+mitrosoft Morphe is licensed under the [GNU General Public License v3.0](LICENSE)
