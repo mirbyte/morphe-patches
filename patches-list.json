@@ -1,10 +1,145 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.1",
+  "version": "1.1.0-dev.1",
   "patches": [
     {
+      "name": "Disable AdMob",
+      "description": "Makes the AdMob availability check return false.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Disable GoPro ad fallback",
+      "description": "Disables the GoPro promo fallback triggered by AdMob load failures.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Disable analytics",
+      "description": "Drops analytics, tracking, and funnel events.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Force local Pro plan",
+      "description": "Forces the local plan lookup and plan state to report Pro. Also hides the profile upsell banner.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
       "name": "Hide profile upsell banner",
-      "description": "Hides the subscription upsell banner below the profile on the Menu tab.",
+      "description": "Hides the subscription upsell banner below the profile on the Menu tab. Also hidden by Force local Pro plan.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Holy larp",
+      "description": "Forces the Ultimate badge on the current user. Visual only.",
       "default": true,
       "category": null,
       "compatiblePackages": [

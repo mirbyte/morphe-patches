@@ -1,3 +1,9 @@
+## [1.1.0-dev.1](https://github.com/mirbyte/morphe-patches/compare/v1.0.1...v1.1.0-dev.1) (2026-11-07)
+
+### ✨ New Features
+
+* Add TradingView AdMob, analytics, plan, and badge patches ([ba9af3f](https://github.com/mirbyte/morphe-patches/commit/ba9af3fc126597eb99564c4dc314d23c82b22475))
+
 ## [1.0.1](https://github.com/mirbyte/morphe-patches/compare/v1.0.0...v1.0.1) (2026-11-07)
 
 ### 🐛 Bug Fixes
