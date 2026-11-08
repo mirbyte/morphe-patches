@@ -60,6 +60,54 @@ object GetUserBadgeTypeFingerprint : Fingerprint(
     parameters = listOf(),
 )
 
+object MarketUIBlockFingerprint : Fingerprint(
+    definingClass = "Lcom/tradingview/tradingviewapp/feature/market/module/feed/model/ui/MarketUIBlockBuilderKt;",
+    name = "block",
+    isStatic = true,
+    returnType = "Ljava/util/List;",
+    parameters = listOf("Lcom/tradingview/tradingviewapp/feature/market/module/feed/model/ui/MarketBrokersState;"),
+)
+
+object BrokersIsFeatureEnabledFingerprint : Fingerprint(
+    definingClass = "Lcom/tradingview/tradingviewapp/feature/brokers/list/impl/shared/interactor/BrokersToggleInteractorImpl;",
+    name = "isFeatureEnabled",
+    isStatic = false,
+    returnType = "Z",
+    parameters = listOf(),
+)
+
+object BrokersShouldShowHaveAccountFingerprint : Fingerprint(
+    definingClass = "Lcom/tradingview/tradingviewapp/feature/brokers/list/impl/shared/interactor/BrokersToggleInteractorImpl;",
+    name = "shouldShowBrokersHaveAccount",
+    isStatic = false,
+    returnType = "Z",
+    parameters = listOf(),
+)
+
+object BrokersWasBannerClosedFingerprint : Fingerprint(
+    definingClass = "Lcom/tradingview/tradingviewapp/feature/brokers/list/impl/shared/BrokersListPreferenceManagerImpl;",
+    name = "wasBannerClosed",
+    isStatic = false,
+    returnType = "Z",
+    parameters = listOf(),
+)
+
+object TradingButtonBindTradingStateFingerprint : Fingerprint(
+    definingClass = "Lcom/tradingview/tradingviewapp/sheet/more/view/TradingButtonView;",
+    name = "bindTradingState",
+    isStatic = false,
+    returnType = "V",
+    parameters = listOf("Lcom/tradingview/tradingviewapp/feature/chart/model/TradingButtonState;"),
+)
+
+object ChartNativePanelButtonIsVisibleFingerprint : Fingerprint(
+    definingClass = "Lcom/tradingview/tradingviewapp/feature/chart/impl/module/chart/presenter/nativepanel/ChartNativePanelPresentationButtonItem;",
+    name = "isVisible",
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
+    returnType = "Z",
+    parameters = listOf(),
+)
+
 object AnalyticsServiceSendEventFingerprint : Fingerprint(
     definingClass = "Lcom/tradingview/tradingviewapp/feature/analytics/impl/services/AnalyticsServiceImpl;",
     name = "sendEvent",
