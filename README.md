@@ -57,4 +57,4 @@ See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation
 
 ## License
 
-mitrosoft Morphe is licensed under the [GNU General Public License v3.0](LICENSE)
+mitrosoft Morphe Patches is licensed under the [GNU General Public License v3.0](LICENSE)
