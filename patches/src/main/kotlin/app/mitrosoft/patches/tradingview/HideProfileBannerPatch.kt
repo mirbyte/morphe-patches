@@ -7,7 +7,7 @@ import app.mitrosoft.patches.shared.Constants.COMPATIBILITY_TRADINGVIEW
 @Suppress("unused")
 val hideProfileBannerPatch = bytecodePatch(
     name = "Hide profile upsell banner",
-    description = "Hides the subscription upsell banner below the profile on the Menu tab.",
+    description = "Hides the subscription upsell banner below the profile on the Menu tab. Also hidden by Force local Pro plan.",
     default = true,
 ) {
     compatibleWith(COMPATIBILITY_TRADINGVIEW)

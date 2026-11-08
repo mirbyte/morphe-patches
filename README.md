@@ -4,7 +4,9 @@ Patch bundle for use with [Morphe](https://github.com/MorpheApp).
 
 ## About
 
-Patches for apps I use.
+Still trying to figure this out.
+
+Exhaustive testing has not been done. Please report any issues.
 
 ### How to use these patches
 
@@ -17,9 +19,9 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 ## Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.1](https://github.com/mirbyte/morphe-patches/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.1.0-dev.3](https://github.com/mirbyte/morphe-patches/releases/tag/v1.1.0-dev.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;9 patches total
 <details open>
-<summary>📦 TradingView&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary>📦 TradingView&nbsp;&nbsp;•&nbsp;&nbsp;9 patches</summary>
 <br>
 
 **Package name:** `com.tradingview.tradingviewapp`
@@ -31,7 +33,15 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Hide profile upsell banner](#hide-profile-upsell-banner) | Hides the subscription upsell banner below the profile on the Menu tab. |  |
+| [Disable AdMob](#disable-admob) | Makes the AdMob availability check return false. |  |
+| [Disable GoPro ad fallback](#disable-gopro-ad-fallback) | Disables the GoPro promo fallback triggered by AdMob load failures. |  |
+| [Disable analytics](#disable-analytics) | Drops analytics, tracking, and funnel events. |  |
+| [Disable brokers feature](#disable-brokers-feature) | Turns off the brokers feature toggle, which broker trading entry points on charts, watchlist, and alerts check. |  |
+| [Force local Pro plan](#force-local-pro-plan) | Forces the local plan lookup and plan state to report Pro. Also hides the profile upsell banner. |  |
+| [Hide broker UI](#hide-broker-ui) | Hides broker entry points: the Explore Brokers block, the brokers banner and have-account prompt, the More menu's Trade with your broker button, and the trading and up/down arrows buttons below the chart. |  |
+| [Hide profile upsell banner](#hide-profile-upsell-banner) | Hides the subscription upsell banner below the profile on the Menu tab. Also hidden by Force local Pro plan. |  |
+| [Holy larp](#holy-larp) | Forces the Ultimate badge on the current user. Visual only. |  |
+| [Strip permissions](#strip-permissions) | Removes the selected permission groups from AndroidManifest.xml. | • Storage<br>• Calendar<br>• Foreground service<br>• Boot start<br>• Ad ID<br>• Billing |
 
 </details>
 
@@ -47,4 +57,4 @@ See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation
 
 ## License
 
-mitrosoft patches is licensed under the [GNU General Public License v3.0](LICENSE)
+mitrosoft Morphe Patches is licensed under the [GNU General Public License v3.0](LICENSE)

@@ -1,10 +1,10 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.1",
+  "version": "1.1.0-dev.3",
   "patches": [
     {
-      "name": "Hide profile upsell banner",
-      "description": "Hides the subscription upsell banner below the profile on the Menu tab.",
+      "name": "Disable AdMob",
+      "description": "Makes the AdMob availability check return false.",
       "default": true,
       "category": null,
       "compatiblePackages": [
@@ -28,6 +28,277 @@
         }
       ],
       "options": []
+    },
+    {
+      "name": "Disable GoPro ad fallback",
+      "description": "Disables the GoPro promo fallback triggered by AdMob load failures.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Disable analytics",
+      "description": "Drops analytics, tracking, and funnel events.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Disable brokers feature",
+      "description": "Turns off the brokers feature toggle, which broker trading entry points on charts, watchlist, and alerts check.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Force local Pro plan",
+      "description": "Forces the local plan lookup and plan state to report Pro. Also hides the profile upsell banner.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Hide broker UI",
+      "description": "Hides broker entry points: the Explore Brokers block, the brokers banner and have-account prompt, the More menu's Trade with your broker button, and the trading and up/down arrows buttons below the chart.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Hide profile upsell banner",
+      "description": "Hides the subscription upsell banner below the profile on the Menu tab. Also hidden by Force local Pro plan.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Holy larp",
+      "description": "Forces the Ultimate badge on the current user. Visual only.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Strip permissions",
+      "description": "Removes the selected permission groups from AndroidManifest.xml.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.tradingview.tradingviewapp",
+          "name": "TradingView",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#2962FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.20.86.0.1002565",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "stripStorage",
+          "title": "Storage",
+          "description": "Removes READ/WRITE_EXTERNAL_STORAGE.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "stripCalendar",
+          "title": "Calendar",
+          "description": "Removes READ/WRITE_CALENDAR. Breaks calendar access.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "stripForegroundService",
+          "title": "Foreground service",
+          "description": "Removes FOREGROUND_SERVICE and FOREGROUND_SERVICE_DATA_SYNC. May break features that run as foreground services.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "stripBoot",
+          "title": "Boot start",
+          "description": "Removes RECEIVE_BOOT_COMPLETED. Background work will not restart after a reboot.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "stripAdId",
+          "title": "Ad ID",
+          "description": "Removes AD_ID and the ACCESS_ADSERVICES_* permissions. Blocks advertising ID access.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "stripBilling",
+          "title": "Billing",
+          "description": "Removes com.android.vending.BILLING. Breaks in-app purchases and subscriptions.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": false,
+          "values": null
+        }
+      ]
     }
   ]
 }
