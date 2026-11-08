@@ -16,10 +16,16 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
   <img src=".github/assets/add-to-morphe.svg" alt="Add to Morphe" height="48">
 </a>
 
+### Bloomberg requirements
+
+- Bloomberg is not distributed outside Google Play. The APK must come from a legitimate Play Store install on your device, or be extracted from that install with AntiSplit-M by someone else. I won't distribute the APK.
+- In the Morphe Android app, tap the APK picker icon (top right), choose the installed app list, and select Bloomberg.
+- The patched app is a clone. It installs next to the Play Store version as `com.bloomberg.android.plus.morphe`.
+
 ## Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.2.0](https://github.com/mirbyte/morphe-patches/releases/tag/v1.2.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
+> **[v1.2.1-dev.1](https://github.com/mirbyte/morphe-patches/releases/tag/v1.2.1-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
 <details open>
 <summary>📦 Bloomberg&nbsp;&nbsp;•&nbsp;&nbsp;8 patches</summary>
 <br>
@@ -28,8 +34,8 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 
 **🎯 Supported versions:**
 
-| 6.66.0.5604504 |
-| :---: |
+| 6.66.0.5604504 | 6.66.0.5604504.069af9ffeb |
+| :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|

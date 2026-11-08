@@ -1,3 +1,9 @@
+## [1.2.1-dev.1](https://github.com/mirbyte/morphe-patches/compare/v1.2.0...v1.2.1-dev.1) (2026-11-08)
+
+### 🐛 Bug Fixes
+
+* Accept Bloomberg Play Store versionName for v6.66.0 ([0023e11](https://github.com/mirbyte/morphe-patches/commit/0023e11964f809cea0d1e1917e90291125ae8962))
+
 ## [1.2.0](https://github.com/mirbyte/morphe-patches/compare/v1.1.0...v1.2.0) (2026-11-08)
 
 ### ✨ New Features

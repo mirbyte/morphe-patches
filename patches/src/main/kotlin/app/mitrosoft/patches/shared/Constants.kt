@@ -22,9 +22,8 @@ object Constants {
         packageName = "com.bloomberg.android.plus",
         apkFileType = ApkFileType.APK,
         targets = listOf(
-            AppTarget(
-                version = "6.66.0.5604504"
-            )
+            AppTarget(version = "6.66.0.5604504"),
+            AppTarget(version = "6.66.0.5604504.069af9ffeb"),
         )
     )
 }
