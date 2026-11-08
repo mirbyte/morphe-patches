@@ -1,3 +1,9 @@
+## [1.1.0-dev.2](https://github.com/mirbyte/morphe-patches/compare/v1.1.0-dev.1...v1.1.0-dev.2) (2026-11-08)
+
+### ✨ New Features
+
+* Add TradingView broker UI, brokers feature, and permissions patches ([843b3f9](https://github.com/mirbyte/morphe-patches/commit/843b3f9b464b551c66ed9df340f4d59373b7a3b4))
+
 ## [1.1.0-dev.1](https://github.com/mirbyte/morphe-patches/compare/v1.0.1...v1.1.0-dev.1) (2026-11-07)
 
 ### ✨ New Features
