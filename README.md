@@ -1,4 +1,4 @@
-# mitrosoft Morphe
+# mitrosoft Morphe Patches
 
 Patch bundle for use with [Morphe](https://github.com/MorpheApp).
 
