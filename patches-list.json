@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.0-dev.2",
+  "version": "1.1.0-dev.3",
   "patches": [
     {
       "name": "Disable AdMob",
@@ -295,7 +295,7 @@
           "description": "Removes com.android.vending.BILLING. Breaks in-app purchases and subscriptions.",
           "required": false,
           "type": "kotlin.Boolean",
-          "default": true,
+          "default": false,
           "values": null
         }
       ]
