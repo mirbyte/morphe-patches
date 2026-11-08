@@ -1,3 +1,9 @@
+## [1.2.0-dev.1](https://github.com/mirbyte/morphe-patches/compare/v1.1.0...v1.2.0-dev.1) (2026-11-08)
+
+### ✨ New Features
+
+* Add Bloomberg patches for v6.66.0 ([825eccd](https://github.com/mirbyte/morphe-patches/commit/825eccda55cc321466d47338aedf4ebc3a61ac22))
+
 ## [1.1.0](https://github.com/mirbyte/morphe-patches/compare/v1.0.1...v1.1.0) (2026-11-08)
 
 ### ✨ New Features
