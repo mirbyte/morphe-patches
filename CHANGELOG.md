@@ -1,3 +1,15 @@
+## [1.2.0-dev.2](https://github.com/mirbyte/morphe-patches/compare/v1.2.0-dev.1...v1.2.0-dev.2) (2026-11-08)
+
+### ✨ New Features
+
+* Add Bloomberg permission strip patch ([ad8abba](https://github.com/mirbyte/morphe-patches/commit/ad8abbac4687133e86ccabab106d6dcdb72839c7))
+
+## [1.2.0-dev.1](https://github.com/mirbyte/morphe-patches/compare/v1.1.0...v1.2.0-dev.1) (2026-11-08)
+
+### ✨ New Features
+
+* Add Bloomberg patches for v6.66.0 ([825eccd](https://github.com/mirbyte/morphe-patches/commit/825eccda55cc321466d47338aedf4ebc3a61ac22))
+
 ## [1.1.0](https://github.com/mirbyte/morphe-patches/compare/v1.0.1...v1.1.0) (2026-11-08)
 
 ### ✨ New Features

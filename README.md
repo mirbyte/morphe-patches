@@ -19,7 +19,31 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 ## Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.0](https://github.com/mirbyte/morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;9 patches total
+> **[v1.2.0-dev.2](https://github.com/mirbyte/morphe-patches/releases/tag/v1.2.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
+<details open>
+<summary>📦 Bloomberg&nbsp;&nbsp;•&nbsp;&nbsp;8 patches</summary>
+<br>
+
+**Package name:** `com.bloomberg.android.plus`
+
+**🎯 Supported versions:**
+
+| 6.66.0.5604504 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Clone Bloomberg](#clone-bloomberg) | Changes the package name to com.bloomberg.android.plus.morphe so the app installs next to the Play Store version. Renames custom permissions and provider authorities to match. Makes updating easier as you can get the original APK from Play Store. |  |
+| [Disable analytics SDKs](#disable-analytics-sdks) | Turns off AppsFlyer (install tracking and event logging) and Comscore (audience measurement). AppsFlyer does not start, and events it logs report success without being sent. Comscore sends no startup, foreground, view, or stream pings. |  |
+| [Disable manifest telemetry](#disable-manifest-telemetry) | Disables Firebase and Google Analytics collection flags, Sentry and Facebook SDK collection flags, the ad ID and install referrer permissions, and the Google Analytics, Measurement, and Sentry components in AndroidManifest.xml. |  |
+| [Force subscription and disable ads](#force-subscription-and-disable-ads) | Hides ad components, ad slots, and banner ads, and makes the app report an active device subscription. |  |
+| [Remove Japanese fonts](#remove-japanese-fonts) | Removes the NotoSansJP font files from assets/fonts to save space. |  |
+| [Rename Bloomberg](#rename-bloomberg) | Changes the launcher name shown under the app icon. | • App name |
+| [Skip video ads](#skip-video-ads) | Skips Google dynamic ad insertion for on-demand videos and plays the backup stream instead, when the stream provides one. Fixes video streams that do not play. |  |
+| [Strip Bloomberg permissions](#strip-bloomberg-permissions) | Removes the selected permission groups from AndroidManifest.xml. | • Storage<br>• Boot start<br>• Ad ID<br>• Install referrer<br>• Billing |
+
+</details>
+
 <details open>
 <summary>📦 TradingView&nbsp;&nbsp;•&nbsp;&nbsp;9 patches</summary>
 <br>
