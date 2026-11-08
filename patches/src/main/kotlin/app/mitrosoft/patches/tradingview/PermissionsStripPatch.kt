@@ -70,7 +70,7 @@ val permissionsStripPatch = resourcePatch(
     )
     val stripBilling by booleanOption(
         key = "stripBilling",
-        default = true,
+        default = false,
         title = "Billing",
         description = "Removes com.android.vending.BILLING. Breaks in-app purchases and subscriptions.",
     )
