@@ -1,3 +1,9 @@
+## [1.2.2-dev.1](https://github.com/mirbyte/morphe-patches/compare/v1.2.1...v1.2.2-dev.1) (2026-11-08)
+
+### 🐛 Bug Fixes
+
+* Enable Clone and Rename Bloomberg by default ([5eeabe9](https://github.com/mirbyte/morphe-patches/commit/5eeabe9cf25446f817216cc01eb0409429f345f9))
+
 ## [1.2.1](https://github.com/mirbyte/morphe-patches/compare/v1.2.0...v1.2.1) (2026-11-08)
 
 ### 🐛 Bug Fixes
