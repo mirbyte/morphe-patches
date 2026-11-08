@@ -1,3 +1,14 @@
+## [1.1.0](https://github.com/mirbyte/morphe-patches/compare/v1.0.1...v1.1.0) (2026-11-08)
+
+### ✨ New Features
+
+* Add TradingView AdMob, analytics, plan, and badge patches ([ba9af3f](https://github.com/mirbyte/morphe-patches/commit/ba9af3fc126597eb99564c4dc314d23c82b22475))
+* Add TradingView broker UI, brokers feature, and permissions patches ([843b3f9](https://github.com/mirbyte/morphe-patches/commit/843b3f9b464b551c66ed9df340f4d59373b7a3b4))
+
+### 🐛 Bug Fixes
+
+* Disable Billing permission strip by default ([03a0aa6](https://github.com/mirbyte/morphe-patches/commit/03a0aa66fb9b17d50cef194d43fd6983222a55d0))
+
 ## [1.1.0-dev.3](https://github.com/mirbyte/morphe-patches/compare/v1.1.0-dev.2...v1.1.0-dev.3) (2026-11-08)
 
 ### 🐛 Bug Fixes
