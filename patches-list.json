@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.2.0",
+  "version": "1.2.1-dev.1",
   "patches": [
     {
       "name": "Clone Bloomberg",
@@ -19,6 +19,13 @@
           "targets": [
             {
               "version": "6.66.0.5604504",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "6.66.0.5604504.069af9ffeb",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -131,6 +138,13 @@
               "isExperimental": false,
               "minSdk": null,
               "description": null
+            },
+            {
+              "version": "6.66.0.5604504.069af9ffeb",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
             }
           ]
         }
@@ -185,6 +199,13 @@
               "isExperimental": false,
               "minSdk": null,
               "description": null
+            },
+            {
+              "version": "6.66.0.5604504.069af9ffeb",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
             }
           ]
         }
@@ -235,6 +256,13 @@
           "targets": [
             {
               "version": "6.66.0.5604504",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "6.66.0.5604504.069af9ffeb",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -347,6 +375,13 @@
               "isExperimental": false,
               "minSdk": null,
               "description": null
+            },
+            {
+              "version": "6.66.0.5604504.069af9ffeb",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
             }
           ]
         }
@@ -370,6 +405,13 @@
           "targets": [
             {
               "version": "6.66.0.5604504",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "6.66.0.5604504.069af9ffeb",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -411,6 +453,13 @@
               "isExperimental": false,
               "minSdk": null,
               "description": null
+            },
+            {
+              "version": "6.66.0.5604504.069af9ffeb",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
             }
           ]
         }
@@ -434,6 +483,13 @@
           "targets": [
             {
               "version": "6.66.0.5604504",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "6.66.0.5604504.069af9ffeb",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
