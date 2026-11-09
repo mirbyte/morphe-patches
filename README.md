@@ -18,9 +18,11 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 
 ### Bloomberg requirements
 
-- Bloomberg is not distributed outside Google Play. The APK must come from a legitimate Play Store install on your device, or be extracted from that install with AntiSplit-M by someone else. I won't distribute the APK.
-- In the Morphe Android app, tap the APK picker icon (top right), choose the installed app list, and select Bloomberg.
-- The patched app is a clone. It installs next to the Play Store version as `com.bloomberg.android.plus.morphe`.
+- Bloomberg is not distributed outside Google Play. This repo does not ship the APK. Start from a legitimate Play Store install on your device.
+- Keep **Clone Bloomberg** enabled. The patched app installs as `com.bloomberg.android.plus.morphe` next to the Play Store version.
+- First patch: in Morphe Manager, tap the APK picker (top right), open the installed app list, and select Bloomberg.
+- After the first patch, Morphe may stop listing the Play Store Bloomberg in that picker, even though it is still installed. For later patches, extract the Play Store install with [AntiSplit-M](https://github.com/AbdurazaaqMohammed/AntiSplit-M), then select the extracted APK file in Morphe.
+- AntiSplit-M is a third-party GitHub app. I do not control it and cannot promise that any third-party install is safe. Use it at your own risk, and prefer downloading it only from the linked repository.
 
 ## Patches list
 
