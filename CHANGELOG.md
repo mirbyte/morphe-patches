@@ -1,3 +1,9 @@
+## [1.3.0-dev.1](https://github.com/mirbyte/morphe-patches/compare/v1.2.2-dev.1...v1.3.0-dev.1) (2026-11-09)
+
+### ✨ New Features
+
+* Update Bloomberg patches for 6.70.0 ([8711aba](https://github.com/mirbyte/morphe-patches/commit/8711aba1860af1e44bdfea946f5ef98f02262b6d))
+
 ## [1.2.2-dev.1](https://github.com/mirbyte/morphe-patches/compare/v1.2.1...v1.2.2-dev.1) (2026-11-08)
 
 ### 🐛 Bug Fixes

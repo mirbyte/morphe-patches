@@ -27,7 +27,7 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 ## Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.2.2-dev.1](https://github.com/mirbyte/morphe-patches/releases/tag/v1.2.2-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
+> **[v1.3.0-dev.1](https://github.com/mirbyte/morphe-patches/releases/tag/v1.3.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
 <details open>
 <summary>📦 Bloomberg&nbsp;&nbsp;•&nbsp;&nbsp;8 patches</summary>
 <br>
@@ -36,7 +36,7 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 
 **🎯 Supported versions:**
 
-| 6.66.0.5604504 | 6.66.0.5604504.069af9ffeb |
+| 6.66.0.5604504.069af9ffeb | 6.70.0.5693432.0411be1ed |
 | :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
@@ -48,7 +48,7 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 | [Remove Japanese fonts](#remove-japanese-fonts) | Removes the NotoSansJP font files from assets/fonts to save space. |  |
 | [Rename Bloomberg](#rename-bloomberg) | Changes the launcher name shown under the app icon. | • App name |
 | [Skip video ads](#skip-video-ads) | Skips Google dynamic ad insertion for on-demand videos and plays the backup stream instead, when the stream provides one. Fixes video streams that do not play. |  |
-| [Strip Bloomberg permissions](#strip-bloomberg-permissions) | Removes the selected permission groups from AndroidManifest.xml. | • Storage<br>• Boot start<br>• Ad ID<br>• Install referrer<br>• Billing |
+| [Strip permissions](#strip-permissions) | Removes the selected permission groups from AndroidManifest.xml. | • Storage<br>• Boot start<br>• Ad ID<br>• Install referrer<br>• Billing |
 
 </details>
 
