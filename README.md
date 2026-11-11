@@ -27,7 +27,7 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 ## Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.3.0](https://github.com/mirbyte/morphe-patches/releases/tag/v1.3.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
+> **[v1.4.0-dev.1](https://github.com/mirbyte/morphe-patches/releases/tag/v1.4.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;18 patches total
 <details open>
 <summary>📦 Bloomberg&nbsp;&nbsp;•&nbsp;&nbsp;8 patches</summary>
 <br>
@@ -74,6 +74,23 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 | [Hide profile upsell banner](#hide-profile-upsell-banner) | Hides the subscription upsell banner below the profile on the Menu tab. Also hidden by Force local Pro plan. |  |
 | [Holy larp](#holy-larp) | Forces the Ultimate badge on the current user. Visual only. |  |
 | [Strip permissions](#strip-permissions) | Removes the selected permission groups from AndroidManifest.xml. | • Storage<br>• Calendar<br>• Foreground service<br>• Boot start<br>• Ad ID<br>• Billing |
+
+</details>
+
+<details open>
+<summary>📦 Bergfex Tours&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**Package name:** `com.bergfex.tour`
+
+**🎯 Supported versions:**
+
+| 4.56.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Force Pro status](#force-pro-status) | Forces the license status to Lifetime (Pro) for all users. |  |
 
 </details>
 

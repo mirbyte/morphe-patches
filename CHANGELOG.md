@@ -1,3 +1,9 @@
+## [1.4.0-dev.1](https://github.com/mirbyte/morphe-patches/compare/v1.3.0...v1.4.0-dev.1) (2026-11-11)
+
+### ✨ New Features
+
+* Add Bergfex Tours force Pro status patch ([9118f57](https://github.com/mirbyte/morphe-patches/commit/9118f5792982803eeddd4f3bec7b3d17c62976a6))
+
 ## [1.3.0](https://github.com/mirbyte/morphe-patches/compare/v1.2.1...v1.3.0) (2026-11-09)
 
 ### ✨ New Features
