@@ -1,3 +1,9 @@
+## [1.4.0-dev.3](https://github.com/mirbyte/morphe-patches/compare/v1.4.0-dev.2...v1.4.0-dev.3) (2026-11-11)
+
+### ✨ New Features
+
+* Add Bergfex Tours live tracking patch and switch Pro unlock to Subscription ([1213c17](https://github.com/mirbyte/morphe-patches/commit/1213c17c83178078bba5e9fd86a3aeead75fd631))
+
 ## [1.4.0-dev.2](https://github.com/mirbyte/morphe-patches/compare/v1.4.0-dev.1...v1.4.0-dev.2) (2026-11-11)
 
 ### ✨ New Features
