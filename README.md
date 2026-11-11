@@ -27,7 +27,7 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 ## Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.4.0-dev.1](https://github.com/mirbyte/morphe-patches/releases/tag/v1.4.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;18 patches total
+> **[v1.4.0-dev.2](https://github.com/mirbyte/morphe-patches/releases/tag/v1.4.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;22 patches total
 <details open>
 <summary>📦 Bloomberg&nbsp;&nbsp;•&nbsp;&nbsp;8 patches</summary>
 <br>
@@ -78,7 +78,7 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 </details>
 
 <details open>
-<summary>📦 Bergfex Tours&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary>📦 Bergfex Tours&nbsp;&nbsp;•&nbsp;&nbsp;5 patches</summary>
 <br>
 
 **Package name:** `com.bergfex.tour`
@@ -90,7 +90,11 @@ Click the button below, or manually add this repo URL in Morphe Manager: https:/
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
+| [Disable Firebase Analytics collection](#disable-firebase-analytics-collection) | Sets firebase_analytics_collection_deactivated in AndroidManifest.xml so Firebase Analytics stops automatic data collection. |  |
+| [Disable advertising ID](#disable-advertising-id) | Disables the AD_ID and ACCESS_ADSERVICES permissions in AndroidManifest.xml so SDKs cannot read the advertising ID. |  |
+| [Disable trackers](#disable-trackers) | Stops AppsFlyer, Amplitude, Sentry, and Firebase Analytics from starting or sending events. GPS tracking, push notifications, and feature flags are unaffected. |  |
 | [Force Pro status](#force-pro-status) | Forces the license status to Lifetime (Pro) for all users. |  |
+| [Randomize Reteno device ID (currently no effect, kept for future reference)](#randomize-reteno-device-id-currently-no-effect-kept-for-future-reference) | Replaces the ANDROID_ID read in the Reteno device ID with a random UUID generated on each launch, so the device ID cannot link sessions or accounts. Reteno does not initialize in the current build, so this has no effect as of now. |  |
 
 </details>
 
