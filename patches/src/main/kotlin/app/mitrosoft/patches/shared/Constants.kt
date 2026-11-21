@@ -39,16 +39,4 @@ object Constants {
             )
         )
     )
-
-    val COMPATIBILITY_XBOX = Compatibility(
-        name = "Xbox",
-        packageName = "com.microsoft.xboxone.smartglass",
-        apkFileType = ApkFileType.APK,
-        appIconColor = 0x107C10,
-        targets = listOf(
-            AppTarget(
-                version = "2611.1.4"
-            )
-        )
-    )
 }
